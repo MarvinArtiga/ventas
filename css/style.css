@@ -11,7 +11,7 @@ img.logo{
     height: 55px;
 }
 #nav{
-    
+    position: relative;
     width: 100%;
     z-index: 99;
 
@@ -33,6 +33,7 @@ img.logo{
 
 /* parte del footer  */
 footer{
+    position: relative;
     background: #474747;
     width: 100%;
     align-self: flex-end;
@@ -118,4 +119,17 @@ li.socialM{
     display: block;
     background-color: red !important;
     width: 100% !important;
+}
+.card-deck{
+    padding-top: 4%;
+    width: 90%;
+    padding: 3%;
+}
+.h2{
+    padding-top: 3%;
+    font-family: monospace;
+    position: relative;
+}
+.text-white{
+    padding-top: 6%;
 }
