@@ -31,6 +31,39 @@ img.logo{
     border-radius: 10px;
 }
 
+
+/*parte del Acerca de*/
+
+.contenedor {
+    padding: 40px;   
+}
+#about {
+    color: #091726;
+    height: 95vh;
+    padding-top: 120px;            
+}
+
+#about H2 {
+    padding-bottom: 50px;
+    text-align: center;
+    border-style: solid;
+    background-color: grey;    
+}
+
+#about p {
+
+    padding-bottom: 60px;
+    text-align: center;     
+}
+
+.acerca-medio {
+    padding: 50px;
+    border-style: solid;
+    background-color: gray;    
+}
+
+
+
 /* parte del footer  */
 footer{
     background: #474747;
