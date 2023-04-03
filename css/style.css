@@ -11,29 +11,62 @@ img.logo{
     height: 55px;
 }
 #nav{
-    position: relative;
+    
     width: 100%;
     z-index: 99;
 
 }
 
-/* parte del contenido de la pagina */
-
-.carousel{
-    margin: 15px 0px 0px 0px;
-    position: relative;
-    background-color: orange;
-    padding:25px;   
-    border-radius: 5px;
-}
+/* parte del contenido de la pagina arriba  */
 
 .carousel img{
-    border-radius: 10px;
+    border-radius: 15px;
+    margin: 35px 0px 0px 60px;
+    
+}
+
+#btn1{
+    margin:15px 35px 10px 3px;
+    font-size: 23px;
+    padding: 10px 25px 10px 25px;
+}
+
+#btn1:hover{
+    background-color: orange !important;
+}
+
+/* parte del contenido de la pagina abajo */
+
+.last img{
+    border-radius:15px ;
+}
+
+.last .tendencias{
+    position: relative;
+    width: 550px;
+    height: 300px;
+    margin: 55px 35px 35px 0px;
+    margin-left:100px ;
+}
+
+.last .nuevos{
+    position: relative;
+    width: 525px;
+    height: 155px;
+    top: -70px;
+}
+
+.last .otro{
+    position: relative;
+    left: 689px;
+    top: -130px;
+    width: 525px;
+    height: 155px;
+    
 }
 
 /* parte del footer  */
 footer{
-    position: relative;
     background: #474747;
     width: 100%;
     align-self: flex-end;
@@ -119,17 +152,4 @@ li.socialM{
     display: block;
     background-color: red !important;
     width: 100% !important;
-}
-.card-deck{
-    padding-top: 4%;
-    width: 90%;
-    padding: 3%;
-}
-.h2{
-    padding-top: 3%;
-    font-family: monospace;
-    position: relative;
-}
-.text-white{
-    padding-top: 6%;
 }
