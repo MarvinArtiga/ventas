@@ -1,0 +1,96 @@
+/*parte del Acerca de*/
+
+.contenedor {
+    padding: 40px;
+  
+    
+    
+}
+#about {
+    color: #091726;
+    height: 95vh;
+    padding-top: 120px;
+    
+    
+    
+}
+
+#about H2 {
+    padding-bottom: 50px;
+    text-align: center;
+    border-style: solid;
+    background-color: grey;
+    
+}
+
+#about p {
+
+    padding-bottom: 60px;
+    text-align: center;
+    
+  
+}
+
+.acerca-medio {
+    padding: 50px;
+    border-style: solid;
+    background-color: gray;
+    
+}
+
+/*parte de Mision*/
+
+.contenedor2{
+    padding: 40px;
+}
+
+#mision{
+    height: 70vh;
+    padding-top: 20px;
+}
+
+#mision h2{
+    padding-bottom: 50px;
+    text-align: center;
+    border-style: solid;
+    background-color: grey;
+}
+
+#mision p{
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.misioncuadro{
+    padding: 50px;
+    border-style: solid;
+    background-color: gray;
+}
+
+/*parte de Vision*/
+.contenedor3{
+    padding: 40px;
+}
+
+#vision{
+    height:80vh;
+    padding-top: 10px;
+}
+
+#vision h2{
+    padding-bottom: 50px;
+    text-align: center;
+    border-style: solid;
+    background-color: grey;
+}
+
+#vision p{
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.visioncuadro{
+    padding: 50px;
+    border-style: solid;
+    background-color: gray;
+}
