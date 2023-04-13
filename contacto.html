@@ -81,19 +81,21 @@
     <div class="info-form">
         <h2>Contáctanos</h2>
         <p>Tus comentarios son importantes para nosotros, infórmanos sobre cualquier inconveniente, o duda, responderemos de la manera más breve posible.</p>
-        <a href="#"><i class="fa fa-phone"></i> 7858-7765</a>
-        <a href="#"><i class="fa fa-envelope"></i> supermercado@gmail.com</a>
-        <a href="#"><i class="fa fa-map-marked"></i> Soyapango, El Salvador</a>
+        <a href="tel:+50378587765"><i class="fa fa-phone"></i> 7858-7765</a>
+        <a href="mailto:supermercado@gmail.com"><i class="fa fa-envelope"></i> supermercado@gmail.com</a>
+        <a href="https://goo.gl/maps/ndrXvqQYqtKX44cq6"><i class="fa fa-map-marked"></i> Apopa, El Salvador</a>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.8105696309976!2d-89.17852788943766!3d13.7902901865497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f633b4d01c0c711%3A0x42b6cfe4f7f35ed!2sPlaza%20Mundo%20Apopa!5e0!3m2!1ses-419!2ssv!4v1681407835126!5m2!1ses-419!2ssv" width="500" height="265" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <form action="#" autocomplete="off">
-        <input type="text" name="nombre" placeholder="Nombres" class="campo">
-        <input type="text" name="apellido" placeholder="Apellidos" class="campo">
-        <input type="emal" name="email" placeholder="Email" class="campo">
-        <input type="number" name="tel" placeholder="Número de teléfono" id="tel" class="campo" required>
-        <small id="passwordHelpBlock" class="form-text text-muted">
+        <input type="text" name="nombre" placeholder="Nombres" class="campo" pattern="[a-zA-Z ]{1,40}" required>
+        <input type="text" name="apellido" placeholder="Apellidos" class="campo" pattern="[a-zA-Z ]{1,40}" required>
+        <input type="email" name="email" placeholder="Email" class="campo" required>
+        <input type="number" name="tel" placeholder="Número de teléfono" id="tel" class="campo" pattern="[9]{8}" required>
+        <small id="passwordHelpBlock" class="form-text text-muted" margin-top: 0>
           El número de teléfono no puede aceptar letras.
         </small>
-        <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
+        <textarea name="mensaje" placeholder="Tu Mensaje..." required></textarea>
         <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
     </form>
 </div>
