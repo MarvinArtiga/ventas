@@ -22,58 +22,81 @@ img.logo{
 
 .contenedor {
     padding: 40px;
+    color: white;
+    
   
     
     
 }
 #about {
     color: #091726;
-    height: 95vh;
+    
     padding-top: 120px;
-    
-    
-    
+  
 }
+
+.imagen1 {
+padding-top: 20px;
+    width: 75%;
+    height: 270px;
+  
+  }
+  
+
+        
+
 
 #about H2 {
     padding-bottom: 50px;
     text-align: center;
-    border-style: solid;
-    background-color: grey;
-    
+    border:  7px solid;
+    background-color: #212529;
+    box-shadow: 7px 0px 37px 20px #ffffff;
 }
 
 #about p {
-
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     text-align: center;
     
   
 }
 
 .acerca-medio {
-    padding: 50px;
-    border-style: solid;
-    background-color: gray;
-    
+    padding: 0px;
+    border:  7px solid;
+    background-color: #212529;
+    box-shadow: 7px 30px 37px 20px #ffffff;
 }
 
 /*parte de Mision*/
 
 .contenedor2{
     padding: 40px;
+    color: white;
 }
 
+
+.imagen2 {
+    padding-top: 0px;
+    padding-bottom: 20px;
+        width: 65%;
+        height: 270px;
+      
+      }
+    
+
 #mision{
-    height: 70vh;
+   
     padding-top: 20px;
 }
 
 #mision h2{
     padding-bottom: 50px;
     text-align: center;
-    border-style: solid;
-    background-color: grey;
+    border:  7px solid;
+    background-color:#212529;
+    box-shadow: 7px 0px 37px 20px #ffffff;
 }
 
 #mision p{
@@ -83,25 +106,36 @@ img.logo{
 
 .misioncuadro{
     padding: 50px;
-    border-style: solid;
-    background-color: gray;
+    border:  7px solid;
+    background-color: #212529;
+    box-shadow: 7px 30px 37px 20px #ffffff;
 }
 
 /*parte de Vision*/
 .contenedor3{
     padding: 40px;
+    color: white;
 }
 
+.imagen3 {
+    padding-top: 0px;
+    padding-bottom: 20px;
+        width: 65%;
+        height: 255px;
+      
+      }
+
 #vision{
-    height:80vh;
+  
     padding-top: 10px;
 }
 
 #vision h2{
     padding-bottom: 50px;
     text-align: center;
-    border-style: solid;
-    background-color: grey;
+    border:  7px solid;
+    background-color: #212529;
+    box-shadow: 7px 0px 37px 20px #ffffff;
 }
 
 #vision p{
@@ -111,8 +145,41 @@ img.logo{
 
 .visioncuadro{
     padding: 50px;
-    border-style: solid;
-    background-color: gray;
+    border:  7px solid;
+    background-color: #212529;
+    box-shadow: 7px 30px 37px 20px #ffffff;
+}
+
+/*parte de Vision*/
+.contenedor4{
+    padding: 40px;
+    color: white;
+   
+}
+
+#nombres{
+  width: 1400px;
+    padding-top: 10px;
+}
+
+#nombres h2{
+    padding-bottom: 50px;
+    text-align: center;
+    border:  7px solid;
+    background-color: #212529;
+    box-shadow: 7px 0px 37px 20px #ffffff;
+}
+
+#nombres p{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.nombrescuadro{
+    padding: 50px;
+    border:  7px solid;
+    background-color: #212529;
+    box-shadow: 7px 30px 37px 20px #ffffff;
 }
 
 /* parte del footer  */
